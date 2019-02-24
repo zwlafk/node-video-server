@@ -1,0 +1,32 @@
+{
+  "name": "tzk",
+  "version": "1.0.0",
+  "description": "watch on bed;躺着看",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwlafk/tzk.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zwlafk/tzk/issues"
+  },
+  "homepage": "https://github.com/zwlafk/tzk#readme",
+  "devDependencies": {
+    "electron": "^3.0.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "child_process": "^1.0.2",
+    "exec": "^0.2.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "stream-body-parser": "0.0.1",
+    "stream-transcoder": "0.0.5"
+  }
+}
